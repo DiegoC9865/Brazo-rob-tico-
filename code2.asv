@@ -1,0 +1,33 @@
+clear ; close ; clc; 
+
+% Parámetros
+tiempo_simulacion = 2; % segundos
+num_puntos = 100; % número de puntos para la simulación
+
+% Predefinir el vector de tiempo fuera del bucle
+tiempo = linspace(0, tiempo_simulacion, num_puntos);
+
+% Definir los rangos de ángulos
+rango1 = linspace(0, pi/2, num_puntos/2);
+rango2 = linspace(pi/2, pi, num_puntos/2);
+
+% Combinar los rangos
+angulos = [rango1, rango2];
+
+% Simulación del movimiento del brazo
+for i = 1:num_puntos
+    % Aquí puedes agregar la lógica para controlar el brazo con los ángulos en 'angulos(i)'
+    % Puedes usar estos ángulos para calcular la posición del brazo en cada paso de tiempo.
+    
+    % Ejemplo: Mostrar los ángulos en cada paso
+    disp(['Tiempo: ', num2str(tiempo(i)), ' segundos - Ángulo: ', num2str(angulos(i))]);
+    Q1 = [i,rango1]
+    
+    % Puedes agregar más lógica según tus necesidades para simular el movimiento del brazo.
+    
+    % Esperar un breve periodo de tiempo para simular el tiempo de ejecución
+    pause(tiempo_simulacion/num_puntos);
+end
+
+
+%sim("TZ.slx")

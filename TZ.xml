@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/10/23||01:17:11" using="Simscape Multibody Link Version 7.4" from="SolidWorks 27.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="" uid="" version="186">
+<AssemblyFile name="" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="bz12-1" uid="bz12-1" entityUid="bz12*:*Predeterminado">
+<Transform>
+<Rotation>-0.99998114259075754 0.0022611415847342796 0.0057097899801168139 -0.0058119882875532561 -0.048116758858341914 -0.99882480861716383 -0.0019837477230235517 -0.99883915860147476 0.048128993229335656</Rotation>
+<Translation>0.47511305707924056 -0.28406433321171554 0.077763496135964436</Translation>
+</Transform>
+</Instance>
+<Instance name="TRZ2-1" uid="TRZ2-1" grounded="true" entityUid="TRZ2*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.34999999999999998 -0.096658495268798716 0.0027054540660521602</Translation>
+</Transform>
+</Instance>
+<Instance name="pinza30-1" uid="pinza30-1" entityUid="pinza30*:*Predeterminado">
+<Transform>
+<Rotation>0.99986623433560828 0.0092410063545086598 -0.013495081959227521 0.013938011647025305 -0.049673989554805779 0.99866822648617215 0.0085583448667206942 -0.99872273357687469 -0.049796146134789367</Rotation>
+<Translation>0.4721889153407588 -0.31029947965503263 -0.46657581545772753</Translation>
+</Transform>
+</Instance>
+<Instance name="Antebrazo 1-1" uid="Antebrazo 1-1" entityUid="Antebrazo 1*:*Predeterminado">
+<Transform>
+<Rotation>0.99717651184076683 -0.010709605801611902 0.074325692574339713 -0.074758272189198727 -0.048188097213404238 0.9960367001402296 -0.0070855467232142505 -0.99878086266734489 -0.048852670317062148</Rotation>
+<Translation>0.47510894506156692 -0.29778117640410462 -0.20690274926874511</Translation>
+</Transform>
+</Instance>
+<Instance name="EJE 3-1" uid="EJE 3-1" entityUid="EJE 3*:*Predeterminado">
+<Transform>
+<Rotation>0.99719120294199382 0.0092410063545086824 0.074325692574339811 -0.073779311026004352 -0.0496739895548058 0.99603670014022938 0.012896435151911197 -0.9987227335768748 -0.048852670317062266</Rotation>
+<Translation>0.47177307005480468 -0.30806415012507077 -0.4216332924467685</Translation>
+</Transform>
+</Instance>
+<Instance name="EJE 2-1" uid="EJE 2-1" entityUid="EJE 2*:*Predeterminado">
+<Transform>
+<Rotation>0.00010892497021490954 0.0022611415847345363 -0.99999743768375982 0.99884171794983012 -0.048116758858342254 -1.4720914519013339e-16 -0.048116635567989605 -0.99883915860147487 -0.0022637636615495324</Rotation>
+<Translation>0.47499999999999987 -0.2816584952688046 0.127705454066039</Translation>
+</Transform>
+</Instance>
+<Instance name="EJE 2-2" uid="EJE 2-2" entityUid="EJE 2*:*Predeterminado">
+<Transform>
+<Rotation>0.99992634860871499 -0.010709605801612249 -0.0057097899801167775 0.0051873864168757444 -0.048188097213404245 0.9988248086171635 -0.010972163879790584 -0.99878086266734512 -0.048128993229335719</Rotation>
+<Translation>0.47564442535165247 -0.29537177154342797 -0.15696370613537772</Translation>
+</Transform>
+</Instance>
+<Instance name="Hombro-3" uid="Hombro-3" entityUid="Hombro*:*Predeterminado">
+<Transform>
+<Rotation>-0.0022637636615495359 1.4536199906630322e-16 0.9999974376837597 4.2699680278054183e-16 -1 1.4632899385319298e-16 0.9999974376837597 4.2732696293861548e-16 0.0022637636615495359</Rotation>
+<Translation>0.42500012811581178 -0.27665849526879882 0.12759226588297462</Translation>
+</Transform>
+</Instance>
+<Instance name="Pieza2^Ensamblaje2-1" uid="Pieza2^Ensamblaje2-1" grounded="true" entityUid="Pieza2^Ensamblaje2*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="30.10.2-1" uid="30.10.2-1" entityUid="30.10.2*:*Predeterminado">
+<Transform>
+<Rotation>0.01459262645323082 0.99986623433560839 0.0073870622528050545 -0.52387635777663355 0.013938011647025475 -0.8516802766261623 -0.85166931200782692 0.0085583448667211643 0.52400967330504233</Rotation>
+<Translation>0.47242726905107557 -0.29305818455116456 -0.52250148872703395</Translation>
+</Transform>
+</Instance>
+<Instance name="30.10.2-2" uid="30.10.2-2" entityUid="30.10.2*:*Predeterminado">
+<Transform>
+<Rotation>0.0039334710334539202 0.99986623433560828 -0.015875806787666646 -0.71281676209882439 0.013938011647025376 0.70121180502204561 0.70133928413897995 0.0085583448667209232 0.7127762364561302</Rotation>
+<Translation>0.4729670723294444 -0.33300491361060125 -0.5205096428816457</Translation>
+</Transform>
+</Instance>
+<Instance name="30.10-1" uid="30.10-1" entityUid="30.10*:*Predeterminado">
+<Transform>
+<Rotation>-0.005163259695778152 0.99986623433560839 0.015519477595727563 0.76548300560382054 0.013938011647025187 -0.64330513752267571 -0.64343539604303346 0.0085583448667208711 -0.76545257583477178</Rotation>
+<Translation>0.46297207426181403 -0.32390272130549236 -0.53607402879532251</Translation>
+</Transform>
+</Instance>
+<Instance name="30.10-2" uid="30.10-2" entityUid="30.10*:*Predeterminado">
+<Transform>
+<Rotation>-0.01543067203654031 0.99986623433560828 -0.0054228955393847925 0.63037247704059596 0.013938011647025364 0.77616768292749139 0.7761394427228937 0.0085583448667211487 -0.63050322773395717</Rotation>
+<Translation>0.46270217262262736 -0.30392935677577682 -0.5370699517180092</Translation>
+</Transform>
+</Instance>
+<Instance name="PINZA-2" uid="PINZA-2" entityUid="PINZA*:*Predeterminado">
+<Transform>
+<Rotation>0.015361993662952421 0.0056144978608731813 0.99986623433560839 -0.97990522868943908 0.19897606544111135 0.013938011647025289 -0.19887119433894251 -0.97998826666207839 0.0085583448667208607</Rotation>
+<Translation>0.47360210460094898 -0.36105338581119722 -0.54902069233998274</Translation>
+</Transform>
+</Instance>
+<Instance name="PINZA-3" uid="PINZA-3" entityUid="PINZA*:*Predeterminado">
+<Transform>
+<Rotation>-0.011564180089186945 0.011566467671471611 -0.99986623433560828 0.9724742792966371 -0.2325930092195671 -0.013938011647025277 -0.2327231098222759 -0.9725053773053346 -0.0085583448667212129</Rotation>
+<Translation>0.47213178656095972 -0.25899097348585803 -0.54346187565929327</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TRZ2-1</Uid>
+</InstancePath>
+<Position>0.125 0.14999999999999997 0.125</Position>
+<Axis>0 -1 -1.9825411154020656e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hombro-3</Uid>
+</InstancePath>
+<Position>0 -0.13000000000000003 0.0500000000000001</Position>
+<Axis>-5.9476233462061963e-16 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TRZ2-1</Uid>
+</InstancePath>
+<Position>0.125 -0.15000000000000005 0.12499999999999997</Position>
+<Axis>0 -1 -1.9825411154020654e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hombro-3</Uid>
+</InstancePath>
+<Position>0 -0.030000000000000027 0.050000000000000044</Position>
+<Axis>-5.8379854305158615e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hombro-3</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.0049999999999999489</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EJE 2-1</Uid>
+</InstancePath>
+<Position>0 0 -0.050000000000000044</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hombro-3</Uid>
+</InstancePath>
+<Position>0 -0.01027777777777783 0.10000000000000014</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>EJE 2-1</Uid>
+</InstancePath>
+<Position>0 0 -0.050000000000000044</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EJE 2-1</Uid>
+</InstancePath>
+<Position>0 0.070000000000000048 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bz12-1</Uid>
+</InstancePath>
+<Position>0 0.020000000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EJE 2-1</Uid>
+</InstancePath>
+<Position>0 0.070000000000000048 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bz12-1</Uid>
+</InstancePath>
+<Position>0 0.020000000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bz12-1</Uid>
+</InstancePath>
+<Position>0 0.23500000000000004 0.050000000000000044</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EJE 2-2</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente7">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>bz12-1</Uid>
+</InstancePath>
+<Position>0 0.27000000000000002 0.050000000000000044</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EJE 2-2</Uid>
+</InstancePath>
+<Position>0 0 -0.049999999999999989</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EJE 2-2</Uid>
+</InstancePath>
+<Position>0 0.069999999999999979 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Antebrazo 1-1</Uid>
+</InstancePath>
+<Position>0 0.01999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EJE 2-2</Uid>
+</InstancePath>
+<Position>0 0.069999999999999979 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo 1-1</Uid>
+</InstancePath>
+<Position>0 0.01999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Antebrazo 1-1</Uid>
+</InstancePath>
+<Position>-0.0010362355582393956 0.21500000000000005 0.049999999999999961</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EJE 3-1</Uid>
+</InstancePath>
+<Position>0 0 -0.049999999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distancia1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EJE 3-1</Uid>
+</InstancePath>
+<Position>0 0 -0.025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo 1-1</Uid>
+</InstancePath>
+<Position>0.04500000000000004 0.17999999999999997 -0.030000000000000082</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concéntrica8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EJE 3-1</Uid>
+</InstancePath>
+<Position>0 0.049999999999999989 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.019999999999999962 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EJE 3-1</Uid>
+</InstancePath>
+<Position>0 0.065000000000000002 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.019999999999999962 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>0.043999999999999817 0.054999999999999993 -0.019999999999999962</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>30.10.2-2</Uid>
+</InstancePath>
+<Position>0 0.048500000000000043 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>0.014999999999999958 0.03999999999999998 0.030000000000000027</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30.10.2-2</Uid>
+</InstancePath>
+<Position>0 0.014999999999999958 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>0.043999999999999928 0.054999999999999993 0.020000000000000018</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>30.10.2-1</Uid>
+</InstancePath>
+<Position>0 0.048500000000000043 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>0.014999999999999958 0.03999999999999998 0.030000000000000027</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30.10.2-1</Uid>
+</InstancePath>
+<Position>0 0.015000000000000069 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>0.043999999999999928 0.070000000000000007 0.010000000000000009</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>30.10-2</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.0050000000000000044 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000069 0.03999999999999998 0.030000000000000027</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30.10-2</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>0.044000000000000039 0.070000000000000007 -0.0099999999999998979</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>30.10-1</Uid>
+</InstancePath>
+<Position>0 -0.00500000000000006 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pinza30-1</Uid>
+</InstancePath>
+<Position>-0.015000000000000069 0.03999999999999998 0.030000000000000027</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30.10-1</Uid>
+</InstancePath>
+<Position>0 -0.00500000000000006 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>30.10.2-2</Uid>
+</InstancePath>
+<Position>0 0.048499999999999932 -0.040000000000000036</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PINZA-2</Uid>
+</InstancePath>
+<Position>0 0 -0.029999999999999971</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30.10.2-2</Uid>
+</InstancePath>
+<Position>0 0.012499999999999956 -0.040000000000000036</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PINZA-2</Uid>
+</InstancePath>
+<Position>-0.020491222615392768 0.027970482347481451 0.012500000000000011</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>30.10-1</Uid>
+</InstancePath>
+<Position>0 -0.0025000000000000022 0.050000000000000044</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PINZA-2</Uid>
+</InstancePath>
+<Position>0 0.025755800000000106 -0.029999999999999971</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>30.10-2</Uid>
+</InstancePath>
+<Position>0 0.02250000000000002 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PINZA-3</Uid>
+</InstancePath>
+<Position>-0.020491222615392768 0.02797048234748134 -0.012500000000000067</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>30.10-2</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.0025000000000000022 0.050000000000000044</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PINZA-3</Uid>
+</InstancePath>
+<Position>0 0.025755799999999995 -0.029999999999999971</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>30.10.2-1</Uid>
+</InstancePath>
+<Position>0 0.048499999999999932 -0.040000000000000036</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PINZA-3</Uid>
+</InstancePath>
+<Position>0 0 -0.030000000000000138</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="30.10" uid="30.10*:*Predeterminado" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="30.10.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013226023819414243</Mass>
+<CenterOfMass>0 0.01 0.024257434074777793</CenterOfMass>
+<Inertia>4.1564079301541019e-06 3.5750360869332964e-06 7.9479592748588197e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="30.10_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="30.10.2" uid="30.10.2*:*Predeterminado" version="212">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="30.10.2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015283148520529899</Mass>
+<CenterOfMass>0 0 -0.013119189441061163</CenterOfMass>
+<Inertia>4.266044994360846e-06 3.678452006757614e-06 1.0756807574189043e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="30.10.2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Antebrazo 1" uid="Antebrazo 1*:*Predeterminado" version="161">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Antebrazo 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0572445621845645</Mass>
+<CenterOfMass>8.9133150095431349e-06 0.09642028266384424 -2.2714792396700077e-08</CenterOfMass>
+<Inertia>0.0037807346713143166 0.0010281566795022135 0.0037344663767161505 2.3946702607174368e-09 -2.4080795481207145e-10 -1.1155470824364306e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Antebrazo 1_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EJE 2" uid="EJE 2*:*Predeterminado" version="235">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EJE 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2379009859883833</Mass>
+<CenterOfMass>0 0.020850527946534983 0</CenterOfMass>
+<Inertia>0.0002302468394778429 0.00011900324520484445 0.00019285605777313042 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="EJE 2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EJE 3" uid="EJE 3*:*Predeterminado" version="233">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EJE 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20026824475966487</Mass>
+<CenterOfMass>0 0.013921132887422452 0</CenterOfMass>
+<Inertia>0.00015924287664796836 0.00010311349684930583 0.00012185209494325587 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="EJE 3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Hombro" uid="Hombro*:*Predeterminado" version="169">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Hombro.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.25105154767964311</Mass>
+<CenterOfMass>-5.5025650799150441e-07 -0.015440619314262273 0.049999992320459749</CenterOfMass>
+<Inertia>0.00049318764908218434 0.00054386390672256542 0.00032558114936295589 1.7764349163602978e-12 1.9761551061527104e-09 -3.4576484393575512e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Hombro_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PINZA" uid="PINZA*:*Predeterminado" version="386">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PINZA.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.041298355606644743</Mass>
+<CenterOfMass>-0.00021400853778327745 0.040362778318529982 0</CenterOfMass>
+<Inertia>2.3533245933335633e-05 8.3694391219220121e-06 1.848241495606567e-05 0 0 1.1771338376839401e-06</Inertia>
+</MassProperties>
+<GeometryFile name="PINZA_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pieza2^Ensamblaje2" uid="Pieza2^Ensamblaje2*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Ensamblaje2.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Pieza2-Ensamblaje2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TRZ2" uid="TRZ2*:*Predeterminado" version="153">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TRZ2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>19.098467458004972</Mass>
+<CenterOfMass>0.125 0 0.016562220336623044</CenterOfMass>
+<Inertia>0.25781920620854687 0.26735658612159635 0.17917264385633827 0 0 3.6687024751988595e-09</Inertia>
+</MassProperties>
+<GeometryFile name="TRZ2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bz12" uid="bz12*:*Predeterminado" version="208">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bz12.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6036068031874904</Mass>
+<CenterOfMass>1.129815673168352e-09 0.11025737064896898 -4.9318362634744678e-10</CenterOfMass>
+<Inertia>0.0073071780982803345 0.002092268121419898 0.007186707614824631 -6.9226098927874101e-10 4.3223937143164867e-10 -1.9203533777875858e-10</Inertia>
+</MassProperties>
+<GeometryFile name="bz12_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pinza30" uid="pinza30*:*Predeterminado" version="504">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pinza30.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.087514124301078161</Mass>
+<CenterOfMass>0 0.032091854472463474 0</CenterOfMass>
+<Inertia>5.2273658749738134e-05 3.7256398902506015e-05 5.1116803972842141e-05 0 2.889745522300292e-11 0</Inertia>
+</MassProperties>
+<GeometryFile name="pinza30_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
